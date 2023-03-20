@@ -4,10 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Under Construction 🚧</title>
-    <link rel="stylesheet" href="./styles.css" /> 
+    <title>PedramCodes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f6b46b9294.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles.css" /> 
 </head>
 <body>
-    <h1>Portfolio Under Construction 🔨 👷‍♂️ </h1>
+    <header>
+        <div class="wrapper">
+            <nav class="topBar">
+                <ul class="nav">
+                    <li class="mainSelection"><a href="./index.html">//pedramcodes</a></li>
+                    <li><a href="./index.html#about">about</a></li>
+                    <li><a href="./index.html#projects">projects</a></li>
+                    <li><a href="./index.html#contact">contact</a></li>
+                </ul>
+            </nav>
+            <div class="welcome wrapper">
+            <h1>pedram shahrokhi <br><span>
+            // web developer</span></h1>
+            </div>
+    </header>
+
+    <main>
+            <section class="aboutMe">
+            <div class="wrapper">
+            <h2>about me</h2>
+            <p>Welcome to my page! I'm Pedram, a Front-end Web Developer from Toronto! I'm thrilled to share some of my recent projects that incorporate responsive, accessible web design using the skills stack listed below. I'm always looking to update and learn new skills to improve the user experience. </p>
+            </div>
+            </section>
+
+            <section class="skills">
+                <div class="wrapper">
+                    <h2>skills</h2>
+                    <ul class="skillsFlex">
+                        <li><i class="fa-brands fa-html5"></i>
+                            <p>html 5</p>
+                        </li>
+                        <li><i class="fa-brands fa-css3-alt"></i>
+                            <p>css 3</p>
+                        </li>
+                        <li><i class="fa-brands fa-sass"></i>
+                            <p>sass</p>
+                        </li>
+                        <li><i class="fa-brands fa-github"></i>
+                            <p>git</p>
+                        </li>
+                        <li><i class="fa-brands fa-js"></i>
+                            <p>javascript</p>
+                        </li>
+                        <li><i class="fa-brands fa-react"></i>
+                            <p>react</p>
+                        </li>
+                        <li><i class="fa-solid fa-universal-access"></i><p>accessability</p></li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="projects">
+                <div class="wrapper">
+                <h2>projects</h2>
+                </div>
+            </section>
+
+            <section class="contact">
+                <div class="wrapper">
+                    <h2>contact</h2>
+                    <div class="flexContact">
+                    <ul class="socials">
+                        <li>
+                        <a href="mailto:pedram.shahrokhi@gmail.com" alt="link to e-mail address">
+                        <span> <i class="fa-solid fa-envelope"></i></span>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="https://github.com/pedram22" alt="link to github repository">
+                        <span><i class="fa-brands fa-github"></i></span>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="https://www.linkedin.com" alt="link to linkedin page"><span>
+                        <i class="fa-brands fa-linkedin"></i></span>           
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="contactForm">
+            <form action="submit">
+                    <div class="formTop">
+                        <label class="sr-only" for="Name">Name</label>
+                        <input id="name" type="text" placeholder="Name" required/>
+                        <label class="sr-only" for="emailAddress">Email Address</label>
+                        <input id="emailAddress" type="email" placeholder="Email address" required/>
+                    </div>
+                        <label class="sr-only" for="Message">Message</label>
+                        <textarea name="message" placeholder="Message" id="message" required></textarea>
+                        <button id="submit">Submit</button>
+                </form>
+            </section>
+    </main>
+     <footer class="wrapper">
+            © 2023 Pedram Shahrokhi
+    </footer>
+    <script src="/scripts.js"></script>
 </body>
 </html>

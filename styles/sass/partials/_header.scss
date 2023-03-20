@@ -1,0 +1,49 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    text-align: center;
+}
+
+a {
+    color: #E7E8EE ;
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 3px;
+}
+
+.mainSelection a {
+    color: #FBAF01;
+}
+
+.topBar {
+    background-color: #3D48AE;
+    line-height: 80px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    flex-grow: 0.3;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0 auto;
+    letter-spacing: 3px;
+}
+
+.welcome {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+    text-align: center;
+    margin-top: 100px;
+}

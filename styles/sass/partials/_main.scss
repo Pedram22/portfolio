@@ -1,0 +1,43 @@
+
+.aboutMe {
+    text-align: center;
+    p {
+        text-align: justify;
+    }
+}
+
+.skills {
+    text-align: center;
+    p {
+        text-transform: uppercase;
+    }
+}
+.skillsFlex {
+    display:flex;
+    align-items: center;
+	justify-content: space-between;
+}
+
+.projects {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.flexContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contactForm {
+    width: 25%;
+    padding: 5%;
+    background-color: #FFFF;
+    box-shadow: -15px 15px #3D48AE;
+    position: relative;
+    bottom: 75px;
+    left: 200px;
+}
